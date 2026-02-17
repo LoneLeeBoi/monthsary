@@ -92,7 +92,7 @@ function setupSurpriseButton() {
 
   button.addEventListener("click", () => {
     createHearts(heartsContainer, 14);
-    button.textContent = "“I love you. Always have, always will.”💕";
+    button.textContent = "I love you. Always have, always will.💕";
     setTimeout(() => {
       button.textContent = "Tap for a tiny surprise";
     }, 2600);
